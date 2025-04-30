@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MSIL Project Tracking - Role Selection</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-border">
+    <header class="main-header">
+      <div class="left">
+        <img src="maruti logo.png" class="msil-logo" alt="Maruti Suzuki Logo">
+        <span class="brand-name">MARUTI SUZUKI</span>
+      </div>
+      <div class="right">
+        <div class="powered">
+          <span class="dot"></span> Powered by <strong>&nbsp; DE>></strong>
+        </div>
+        <div class="divider"></div>
+        <div class="user-profile">
+          <div class="user-avatar"><img src="user-icon.png" alt="User Icon" style="width: 40px; height: 40px;"></div>
+          <div class="user-details">
+            <div class="user-name">Maruti ABC</div>
+            <div class="user-id">124</div>
+          </div>
+          <div class="user-avatar2"><img src="dropdown-icon.png" alt="Dropdown Icon" style="width: 30px; height: 30px;"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page 2 content starts here -->
+    <div class="role-wrapper">
+      <h2 class="role-title">ROLE</h2>
+      <div class="role-cards">
+        <div class="role-card" onclick="window.location.href='dashboard.html'">
+          <img src="user-role.png" alt="User Icon" class="role-icon">
+          <p>User</p>
+        </div>
+        <div class="role-card" onclick="window.location.href='dashboard.html'">
+          <img src="admin-role.png" alt="Admin Icon" class="role-icon">
+          <p>Admin</p>
+        </div>
+        <div class="role-card" onclick="window.location.href='dashboard.html'">
+          <img src="management-role.png" alt="Management Icon" class="role-icon">
+          <p>Management</p>
+        </div>
+      </div>
+    </div>
+    <!-- Page 2 content ends here -->
+    <button class="back-button" onclick="goBack()">
+      &#8592;
+    </button>
+  </div>
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>
