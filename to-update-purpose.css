@@ -1,0 +1,58 @@
+body{
+  font-family: 'Fira Sans', sans-serif;
+}
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 0;
+  }
+  
+  .btn-primary {
+    background-color: #0066ff;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .btn-secondary {
+    background-color: #3d3d3d;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+   }
+   .btn-tertiary {
+    background-color: #3d3d3d;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+   }
+   .row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px; /* spacing between checkbox and text */
+    font-size: 15px;
+  }
+  .row label{
+    padding-top:3px;
+  }
+  .row input[type="checkbox"] {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+  }
+  
+  #abc2{
+    width: 17px;
+    height: 17px;
+  }
